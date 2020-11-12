@@ -74,6 +74,5 @@
 
 [MongoDB Extension](https://liquibase.jira.com/wiki/spaces/CONTRIB/pages/1281163265/MongoDB+Extension)
   
-
-
+[Liquibase Extensions](https://liquibase.jira.com/wiki/spaces/CONTRIB/pages/1998865/Available%2BExtensions)
   
