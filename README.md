@@ -71,6 +71,8 @@
 [Using Liquibase with MongoDB](https://docs.liquibase.com/workflows/database-setup-tutorials/mongodb.html)
 
 [Liquibase MongoDB Extension](https://github.com/liquibase/liquibase-mongodb)
+
+[MongoDB Extension](https://liquibase.jira.com/wiki/spaces/CONTRIB/pages/1281163265/MongoDB+Extension)
   
 
 
