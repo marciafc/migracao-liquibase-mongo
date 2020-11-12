@@ -5,10 +5,12 @@
 É necessário ter o Java instalado e configurado
 
 1. Baixar o [liquibase-4.1.1.tar.gz](https://www.liquibase.org/download) e descompactar
+  - Exemplo: /home/marcia/liquibase-4.1.1
 
 2. Instalar o [Liquibase](https://docs.liquibase.com/concepts/installation/home.html):
 
 ```
+  //Exemplo PATH=$PATH:/home/marcia/liquibase-4.1.1
   $ export PATH=$PATH:/path/to/Liquibase-<version>-bin
 
   $ source ~/.profile 
@@ -22,7 +24,6 @@
   $ liquibase --help
   
 ```
-
 4. Baixar o [driver jdbc para Mongo](https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver)
 
   - mongo-java-driver-3.9.1.jar
