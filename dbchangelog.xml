@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd
+      http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<changeSet id="1" author="marciafc">
+		<ext:createCollection collectionName="cliente"/>
+		<ext:insertOne collectionName="cliente">
+			<ext:document>
+				{
+				"nome": "Marcia",
+				"sobrenome": "Castagna",
+				"apelido": "Marcinha"
+				}						
+			</ext:document>
+		</ext:insertOne>
+	</changeSet>	
+
+	<changeSet id="2" author="marciafc">
+		<ext:createCollection collectionName="produto"/>
+		<ext:insertOne collectionName="produto">
+			<ext:document>
+				{
+				"codigo": 1234",
+				"descricao": "Produto x"
+				}						
+			</ext:document>
+		</ext:insertOne>
+	</changeSet>	
+	
+</databaseChangeLog>
+
