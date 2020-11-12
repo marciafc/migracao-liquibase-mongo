@@ -19,7 +19,7 @@ xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liqui
 		</ext:insertOne>
 	</changeSet>	
 
-	<changeSet id="3" author="marciafc">
+	<changeSet id="2" author="marciafc">
 		<ext:createCollection collectionName="produto"/>
 		<ext:insertOne collectionName="produto">
 			<ext:document>
