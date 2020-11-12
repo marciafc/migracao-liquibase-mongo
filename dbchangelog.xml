@@ -19,17 +19,17 @@ xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liqui
 		</ext:insertOne>
 	</changeSet>	
 
-	<changeSet id="2" author="marciafc">
+	<changeSet id="3" author="marciafc">
 		<ext:createCollection collectionName="produto"/>
 		<ext:insertOne collectionName="produto">
 			<ext:document>
 				{
-				"codigo": 1234",
+				"codigo": "1234",
 				"descricao": "Produto x"
 				}						
 			</ext:document>
 		</ext:insertOne>
-	</changeSet>	
+	</changeSet>			
 	
 </databaseChangeLog>
 
