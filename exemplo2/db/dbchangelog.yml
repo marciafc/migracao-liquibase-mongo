@@ -1,0 +1,18 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 1
+      author: marciafc
+      comment: "Criando e populando a collection cliente"
+
+      changes:
+        - createCollection:
+            - collectionName: cliente
+
+        - insertOne:
+            - collectionName: cliente
+            - document: '{
+				"nome": "Marcia",
+				"sobrenome": "Castagna",
+				"apelido": "Marcinha"
+				}'
