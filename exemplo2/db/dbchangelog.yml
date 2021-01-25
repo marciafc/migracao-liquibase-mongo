@@ -1,18 +1,25 @@
 databaseChangeLog:
 
   - changeSet:
-      id: 1
+      id: '20210125-0530'
+      author: marciafc
+      comment: "Criando tag do database"
+      changes:
+        - tagDatabase:
+            tag: 1
+
+  - changeSet:
+      id: '20210125-0533'
       author: marciafc
       comment: "Criando e populando a collection cliente"
 
       changes:
-        - createCollection:
-            - collectionName: cliente
+      - createCollection:
+          collectionName: cliente
 
-        - insertOne:
-            - collectionName: cliente
-            - document: '{
-				"nome": "Marcia",
-				"sobrenome": "Castagna",
-				"apelido": "Marcinha"
-				}'
+      - insertOne:
+          collectionName: cliente
+          document: '{
+                "nome": "Marcia",
+                "sobrenome": "Castagna",
+                "apelido": "Marcinha"}'
