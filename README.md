@@ -11,7 +11,7 @@
 
 ```
   //Exemplo PATH=$PATH:/home/marcia/liquibase-4.1.1
-  $ export PATH=$PATH:/path/to/Liquibase-<version>-bin
+  $ export PATH=$PATH:/path/to/Liquibase-<version>
 
   $ source ~/.profile 
   OU
@@ -38,7 +38,7 @@
 
 1. Criar a pasta que conterá o projeto
 
-2. Nesta pasta, criar o arquivo dbchangelog.xml com as instruções de migração
+2. Nesta pasta, criar o arquivo dbchangelog.xml / dbchangelog.yml com as instruções de migração
 
 3. Nesta mesma pasta, criar o arquivo liquibase.properties com as configurações do Mongo
 
